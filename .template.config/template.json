@@ -1,0 +1,36 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Arthur Augsten",
+    "sourceName": "ProjectName",
+    "classifications": ["Console"],
+    "identity": "Augsten.Template.CSharp.Console",
+    "name": "Console Template (Custom)",
+    "shortName": "console-template",
+    "tags": {
+        "language": "C#",
+        "type": "project"
+    },
+    "defaultName": "ConsoleApplication",
+    "description": "Default template for console applications.",
+    "sources": [{
+        "source": "./",
+        "target": "./",
+        "include": "**/*",
+        "exclude": [
+            "**/[Bb]in/**",
+            "**/[Oo]bj/**",
+            ".template.config/**",
+            "**/.git/**"
+        ]
+    }],
+    "symbols": {
+        "NullableStaticAnalyzer": {
+            "type": "parameter",
+            "description": "Configure the nullable static analyzer.",
+            "defaultValue": "enabled",
+            "replaces": "NullableAnalyzer",
+            "choices": ["enabled", "disabled"],
+            "datatype": "text"
+        }
+    }
+}
