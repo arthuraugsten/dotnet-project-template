@@ -27,9 +27,9 @@
         "NullableStaticAnalyzer": {
             "type": "parameter",
             "description": "Configure the nullable static analyzer.",
-            "defaultValue": "enabled",
+            "defaultValue": "enable",
             "replaces": "NullableAnalyzer",
-            "choices": ["enabled", "disabled"],
+            "choices": ["enable", "disable"],
             "datatype": "text"
         }
     }
