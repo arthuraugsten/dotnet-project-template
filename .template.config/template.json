@@ -20,7 +20,8 @@
             "**/[Bb]in/**",
             "**/[Oo]bj/**",
             ".template.config/**",
-            "**/.git/**"
+            "**/.git/**",
+            "README.MD"
         ]
     }],
     "symbols": {
